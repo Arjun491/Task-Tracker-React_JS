@@ -20,10 +20,11 @@ const AddTask = ({onAdd}) => {
             }
 
        }
+       else{  onAdd({text,day,reminder})}
 
     
 
-       onAdd({text,day,reminder})
+     
 // clear the form
        setText('')
        setDay('')
